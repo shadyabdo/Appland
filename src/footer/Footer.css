@@ -1,0 +1,40 @@
+.Container {
+    text-align: center;
+    background-color: #47536e;
+    padding: 10px 0px;
+}
+
+.Container .icons {
+    margin: 20px auto;
+
+}
+
+.Container .icons a {
+    font-size: 30px;
+    color: #fff;
+    margin-right: 30px;
+    
+}
+
+.Container .icons a i{
+    text-shadow: 1px 1px 5px #0000003f;
+}
+.Container p {
+    color: #47536e;
+    background-color: #e8ecf5;
+    padding: 10px 0px;
+    margin-bottom: -10px;
+    box-shadow: 1px 1px 10px #0000003f;
+}
+
+/* Responsive */
+@media(max-width:430px){
+    .Container .icons a {
+        font-size:25px;
+      
+        
+    }
+    .Container p {
+        font-size: 14px
+    }
+}

@@ -1,0 +1,200 @@
+#App-Features img {
+    width: 100%;
+}
+
+#App-Features {
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+.App_Features_info .title {
+    color: #5777ba;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.App_Features_info p {
+    color: #47536ed7;
+    text-align: center;
+}
+
+.row_App_Features-1 {
+    margin-top: 80px;
+}
+
+.row_App_Features li {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.row_App_Features li .icon {
+    display: inline-block;
+    font-size: 30px;
+    color: #5777ba;
+}
+
+.row-Apps li h5 {
+    display: inline-flex;
+    color: #47536e;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.row_App_Features li p {
+    line-height: 25px;
+    margin-left: 45px;
+    font-size: 14px;
+    color: #47536ea4;
+}
+
+
+.row_App_Features-2,
+.row_App_Features-3,
+.row_App_Features-4,
+.row_App_Features-5 {
+    text-align: left;
+    margin: 80px auto;
+}
+
+.row_App_Features-2 p,
+.row_App_Features-3 p,
+.row_App_Features-4 p,
+.row_App_Features-5 p {
+    color: #47536ee6;
+
+}
+
+.row_App_Features-2 h3,
+.row_App_Features-3 h3,
+.row_App_Features-4 h3,
+.row_App_Features-5 h3 {
+    color: #47536e;
+    font-weight: 600;
+}
+
+.row_App_Features-2 .italic_text,
+.row_App_Features-3 .italic_text,
+.row_App_Features-4 .italic_text,
+.row_App_Features-5 .italic_text {
+    font-style: italic;
+}
+
+.row_App_Features-2 .check span,
+.row_App_Features-4 .check span,
+.row_App_Features-5 .check span {
+    display: flex;
+
+}
+
+.row_App_Features-2 .check span p,
+.row_App_Features-4 .check span p,
+.row_App_Features-5 .check span p {
+    margin-left: 12px;
+}
+
+.row_App_Features-2 .check .fa-check,
+.row_App_Features-4 .check .fa-check,
+.row_App_Features-5 .check .fa-check {
+    font-size: 20px;
+    color: #5777ba;
+    display: inline-flex;
+}
+
+
+
+
+/* Responsive */
+@media(max-width:1200px){
+    .row-Apps li h5 {
+     
+        font-size: 19px;
+       
+    }
+}
+    
+
+@media(max-width:980px) {
+
+    #App-Features img {
+        width: 70%;
+        text-align: center;
+    }
+
+
+}
+
+
+@media(max-width:380px) {
+    #App-Features {
+        margin-top: 180px;
+    }
+
+    .row-Apps li h5 {
+        display: inline-flex;
+        color: #47536e;
+        font-weight: 600;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .row_App_Features li p {
+        line-height: 25px;
+        margin-left: 45px;
+        font-size: 13px;
+        color: #47536ea4;
+    }
+
+    .row_App_Features li .icon {
+        display: inline-block;
+        font-size: 25px;
+        color: #5777ba;
+    }
+
+
+}
+
+
+@media(max-width:330px) {
+    #App-Features {
+        margin-top: 20px;
+    }
+
+
+
+    .App_Features_info .title {
+        font-size: 25px;
+    }
+
+    .App_Features_info p {
+        color: #47536ed7;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .row_App_Features-2 h3,
+    .row_App_Features-3 h3,
+    .row_App_Features-4 h3,
+    .row_App_Features-5 h3 {
+        color: #47536e;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .row_App_Features-2 .italic_text,
+    .row_App_Features-3 .italic_text,
+    .row_App_Features-4 .italic_text,
+    .row_App_Features-5 .italic_text {
+        font-size: 14px;
+    }
+
+    .row_App_Features-2 p,
+    .row_App_Features-3 p,
+    .row_App_Features-4 p,
+    .row_App_Features-5 p {
+        font-size: 14px;
+    }
+}

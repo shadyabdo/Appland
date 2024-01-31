@@ -1,0 +1,243 @@
+.Testimonials-Section {
+    margin-top: 50px;
+    padding: 40px 0px;
+    background-color: #f2f5fa;
+
+}
+
+.Testimonials-Section .title {
+    color: #5777ba;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Testimonials-Section p {
+    color: #47536ed7;
+    text-align: center;
+}
+
+
+
+.swiper {
+
+    padding: 0px 0px 50px 0px;
+
+}
+
+.swiper-slide {
+    margin-top: 70px;
+    background: none;
+}
+
+.Testimonials-Section .card-Testimonials {
+    text-align: left;
+    position: relative;
+    transform: translateX(50px);
+}
+
+.Testimonials-Section .card-head {
+    margin-left: 60px;
+    transform: translateY(20px);
+}
+
+.Testimonials-Section .card-head h3 {
+    font-size: 20px;
+    color: #47536e;
+    font-weight: 600;
+    text-align: left;
+}
+
+.Testimonials-Section .card-head p {
+    color: #47536ed7;
+    font-size: 15px;
+    text-align: left;
+}
+
+.Testimonials-Section .card-text {
+    margin-left: 45px;
+    text-align: left;
+    font-size: 14px;
+    color: #47536ed7;
+}
+
+
+.Testimonials-Section .card-text i {
+    opacity: .2;
+    font-size: 22px;
+}
+
+.Testimonials-Section .card-text .fa-quote-left {
+    margin-right: 7px;
+}
+
+.Testimonials-Section .card-text .fa-quote-right {
+    margin-left: 7px;
+}
+
+.Testimonials-Section .card-Testimonials img {
+    position: absolute;
+    width: 18%;
+    border: 6px solid #fff;
+    transform: translateX(-50px);
+    border-radius: 10px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #5777ba;
+}
+
+.card-Testimonials {
+    height: 200px;
+    width: 90%;
+}
+
+
+/* responsive */
+@media(max-width:1450px) {
+    .Testimonials-Section {
+        margin-top: 150px;
+
+
+    }
+
+
+}
+@media(max-width:1310px) {
+    .Testimonials-Section{
+        margin-top: 20px;
+    }
+}
+@media(max-width:1190px) {
+    .Testimonials-Section{
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:1150px) {
+    .Testimonials-Section .card-Testimonials img {
+        width: 20%;
+        transform: translate(-40px, 25px);
+    }
+}
+
+
+@media(max-width:1140px) {
+    .Testimonials-Section .card-head h3 {
+        font-size: 17px;
+    }
+
+    .Testimonials-Section .card-head p {
+        color: #47536ed7;
+        font-size: 14px;
+        text-align: left;
+    }
+
+    .Testimonials-Section .card-text {
+
+        font-size: 13px;
+    }
+}
+
+
+@media(max-width:980px) {
+    .Testimonials-Section {
+        margin-top: 0px;
+
+
+    }
+    .Testimonials-Section .card-Testimonials img {
+        width: 15%;
+        transform: translate(-50px, 20px);
+    }
+}
+
+@media(max-width:770px) {
+    .Testimonials-Section {
+        margin-top: 0px;
+
+
+    }
+}
+
+@media(max-width:650px) {
+    .Testimonials-Section .card-Testimonials img {
+        width: 20%;
+        transform: translate(-50px, 20px);
+    }
+
+}
+
+@media(max-width:480px) {
+    .Testimonials-Section {
+        margin-top: 20px;
+
+    }
+
+}
+
+@media(max-width:450px) {
+    .Testimonials-Section .card-Testimonials {
+
+        transform: translateX(0px);
+    }
+
+    .Testimonials-Section .card-Testimonials img {
+        width: 20%;
+        transform: translateX(0px);
+    }
+
+    .Testimonials-Section .card-head {
+        margin-left: 60px;
+        transform: translate(20px, 30px);
+    }
+
+    .Testimonials-Section .card-text {
+        transform: translateX(10px);
+    }
+
+}
+
+@media(max-width:440px) {
+    .Testimonials-Section .card-Testimonials {
+
+        width: 100%;
+    }
+
+}
+
+
+
+@media(max-width:380px) {
+    .Testimonials-Section {
+        margin-top: 10px;
+
+    }
+
+    .Testimonials-Section .card-Testimonials {
+        height: 220px;
+    }
+}
+
+@media(max-width:330px) {
+    .Testimonials-Section .title {
+     
+        font-size: 25px;
+      
+    }
+    
+    .Testimonials-Section p {
+       font-size: 14px;
+    }
+    
+
+    .Testimonials-Section .card-Testimonials {
+        height: 235px;
+    }
+
+    .Testimonials-Section .card-Testimonials img {
+        width: 25%;
+        transform: translateX(0px);
+    }
+}

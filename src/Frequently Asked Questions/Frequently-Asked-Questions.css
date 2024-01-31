@@ -1,0 +1,75 @@
+.F_A_Q_Section {
+    margin-top: 50px;
+    padding: 40px 0px;
+
+}
+
+.F_A_Q_Section .title {
+    color: #5777ba;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.F_A_Q_Section p {
+    color: #47536ed7;
+    text-align: center;
+    margin: 30px 0px 50px 0px;
+}
+
+
+
+.accordion-button:not(.collapsed) {
+    color: #5777ba;
+    background: none;
+    border: none;
+}
+
+.accordion-button:hover {
+    color: #5777ba;
+}
+
+.accordion-flush .accordion-item {
+
+    box-shadow: 1px 1px 5px #4f505223;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.accordion-body {
+
+    color: #000000b7;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+    background: none;
+}
+
+/* Responsive */
+@media(max-width:330px) {
+    .F_A_Q_Section .title {
+
+        font-size: 25px;
+
+    }
+
+    .F_A_Q_Section p {
+        font-size: 14px;
+    }
+
+    .accordion-button {
+        font-size: 15px;
+    }
+
+    .accordion-body {
+        font-size: 14px;
+    }
+}

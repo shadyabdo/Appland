@@ -1,0 +1,148 @@
+.Gallery-Section {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#container {
+    height: 100%;
+}
+
+.Gallery-Section img {
+    width: 100%;
+}
+
+.Gallery-Section .title {
+    color: #5777ba;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Gallery-Section p {
+    color: #47536ed7;
+    text-align: center;
+}
+
+
+.swiper {
+
+    padding: 0px 0px 50px 0px;
+
+}
+
+.swiper-slide {
+    margin-top: 70px;
+    background: none;
+}
+
+.Gallery-Section img {
+    border: 4px solid #5777ba;
+    border-radius: 25px;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    transform: translateY(7px);
+}
+
+
+/* responsive */
+@media(max-width:1500px) {
+    .Gallery-Section {
+        height: 130vh;
+        overflow: hidden;
+    }
+}
+
+
+@media(max-width:1190px) {
+    .Gallery-Section {
+        height: 130vh;
+        overflow: hidden;
+    }
+}
+
+@media(max-width:970px) {
+    .Gallery-Section {
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+@media(max-width:770px) {
+    .Gallery-Section {
+        height: 155vh;
+        overflow: hidden;
+    }
+}
+
+@media(max-width:650px) {
+    .Gallery-Section {
+        height: 160vh;
+        overflow: hidden;
+    }
+}
+
+
+
+
+
+@media(max-width:380px) {
+    .Gallery-Section {
+        height: 120vh;
+    }
+
+    .Gallery-Section img {
+        width: 100%;
+    }
+
+    .Gallery-Section .swiper-slide {
+        transform: translate(0px, -40px);
+        background: none;
+
+    }
+}
+
+@media(max-width:430px) {
+    .Gallery-Section {
+        height: 120vh;
+        overflow: hidden;
+    }
+
+    .Gallery-Section .title {
+
+        font-size: 25px;
+
+    }
+
+    .Gallery-Section p {
+        color: #47536ed7;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .Gallery-Section .swiper {
+        padding-bottom: 30px;
+
+    }
+
+    .Gallery-Section .swiper-slide {
+        transform: translate(10px, -50px);
+        background: none;
+
+    }
+
+    .Gallery-Section img {
+        width: 90%;
+    }
+
+    .swiper-pagination-fraction,
+    .swiper-pagination-custom,
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal {
+        transform: translateY(10px);
+    }
+
+}
