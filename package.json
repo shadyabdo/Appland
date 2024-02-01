@@ -2,7 +2,6 @@
   "name": "appland",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/shadyabdo/Appland2",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
@@ -16,6 +15,7 @@
     "aos": "^2.3.4",
     "babel-plugin-macros": "^3.1.0",
     "bootstrap": "^5.3.2",
+    "disqus-react": "^1.1.5",
     "firebase": "^10.7.2",
     "font-awesome": "^4.7.0",
     "framer-motion": "^11.0.3",

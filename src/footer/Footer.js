@@ -14,6 +14,7 @@ export default function Footer() {
 
     return (
         <Container fluid className='Container'>
+       
             <div className='icons'>
 
                 <Link title="Facebook" id="t-1">
@@ -30,14 +31,14 @@ export default function Footer() {
                 {/* ////// */}
 
                 <Link title="Github" id="t-4">
-                <i class="fa-brands fa-github-alt"></i>
+                    <i class="fa-brands fa-github-alt"></i>
                 </Link>
                 {/* ////// */}
 
 
 
-                
-               
+
+
 
             </div>
             <p> &#169; Copyright Append All Rights Reserved</p>

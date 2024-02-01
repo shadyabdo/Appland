@@ -23,6 +23,15 @@ function Home() {
 
         <section id='Home' className='Home-Section'>
             <Container className='container'>
+            <script
+                src="https://app.wonderchat.io/scripts/wonderchat.js"
+                data-name="wonderchat"
+                data-address="app.wonderchat.io"
+                data-id="cls1pljfl0121qe220j8ehrwb"
+                data-widget-size="normal"
+                data-widget-button-size="normal"
+                defer
+            ></script>
             <Row>
                 <Col className='home-text' data-aos="fade-right" data-aos-duration="1500" lg ={6} sm={12}>
                 <h1>App landing page <br/> template</h1>

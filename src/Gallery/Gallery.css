@@ -50,6 +50,7 @@
 
 
 /* responsive */
+
 @media(max-width:1500px) {
     .Gallery-Section {
         height: 130vh;
